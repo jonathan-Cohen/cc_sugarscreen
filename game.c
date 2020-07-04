@@ -143,7 +143,6 @@ void player_place_bet(t_game * g)
     }
     printf("Your bet : %i\n", g->player->bet);
 }
-
 int player_ask_cards(t_game * g)
 {
     char ans[100];
